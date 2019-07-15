@@ -1,14 +1,21 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background: #ffffff;
+}
+
 
 div.col {
-    background: white;
+    background: #ffffff;
+    
 
 }
 
 
-
-.yourname {
-    background: #4aaaa5;
-}
 
 .aboutme {
     padding: 20px 0 20px;
@@ -25,10 +32,27 @@ div.col {
     float: left;
 }
 
-#bg-img {
-    background-image: url(../images/real_cf.png)
-}
 
 .main-content {
     margin-top: 25px;
 }
+
+
+#bg-img {
+    background-image: url(../images/real_cf.png)
+}
+
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+
+.footer,
+.push {
+    height: 50px;
+}
+
+.footer {
+    color: white;
+}
+  
