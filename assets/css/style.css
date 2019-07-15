@@ -1,7 +1,10 @@
+
 div.col {
     background: white;
 
 }
+
+
 
 .yourname {
     background: #4aaaa5;
@@ -23,10 +26,9 @@ div.col {
 }
 
 #bg-img {
-    background-image: url(./assets/images/real_cf.png);
+    background-image: url(../images/real_cf.png)
 }
 
 .main-content {
     margin-top: 25px;
 }
-
