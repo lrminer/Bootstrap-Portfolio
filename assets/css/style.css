@@ -1,0 +1,32 @@
+div.col {
+    background: white;
+
+}
+
+.yourname {
+    background: #4aaaa5;
+}
+
+.aboutme {
+    padding: 20px 0 20px;
+    margin: 0 0 3px;
+    color: #4aaaa5;
+    border: 0 0 20px solid white;
+
+}
+
+.img-profile {
+    width: 200px;
+    height: 200px;
+    margin: 0 20px 0 0;
+    float: left;
+}
+
+#bg-img {
+    background-image: url(./assets/images/real_cf.png);
+}
+
+.main-content {
+    margin-top: 25px;
+}
+
