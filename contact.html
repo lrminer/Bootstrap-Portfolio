@@ -1,14 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
-<body>
-    
+
+<body id="bg-img">
+    <div class="wrapper">
+        <div class="container content">
+            <div class="row">
+                <div class="col">
+                    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ffffff">
+                        <a class="navbar-brand yourname" href="#">Logan Miner</a>
+                        
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">About</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="portfolio.html">Portfolio</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+
+
+
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+
+
+
+            <div class="row main-content">
+                <div class="col">
+                    
+                        <h1>Contact</h1>
+
+                        <form id="contact-form">
+                          <ul>
+                            <li>
+                              <label for="name">Name</label>
+                              <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+                            </li>
+                            <li>
+                              <label for="email">Email</label>
+                              <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+                            </li>
+                            <li>
+                              <label for="message">Message</label>
+                              <textarea id="message" name="message" required="required"></textarea>
+                            </li>
+                          </ul>
+                          <input type="submit">
+                        </form>
+
+                </div>
+            </div>
+        </div>
+        <div class="push"></div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+
+
+
+                <footer class="footer d-flex align-items-center justify-content-center">
+                    Copyright &copy; 
+                </footer>
+
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>

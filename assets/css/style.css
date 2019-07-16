@@ -17,11 +17,10 @@ div.col {
 
 
 
-.aboutme {
-    padding: 20px 0 20px;
-    margin: 0 0 3px;
+h1 {
+    
     color: #4aaaa5;
-    border: 0 0 20px solid white;
+   
 
 }
 
@@ -54,9 +53,9 @@ div.col {
 
 .footer {
     background: #ffffff;
-    
-    
-    
    
 }
   
+.work {
+    max-width: 100px;
+}
