@@ -21,10 +21,15 @@ p {
 
 h1 {
     
-    color: #4aaaa5;
+    color: #007bff;
     padding: 15px 15px 0px;
    
 
+}
+
+.yourname {
+    color: #007bff;
+    padding: 20px 0px;
 }
 
 .img-profile {
@@ -68,7 +73,7 @@ h1 {
  {
     height: 200px;
     width: 267px;
-    background: #4aaaa5;
+    background: #007bff;
     margin: 6px;
 
     
