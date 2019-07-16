@@ -38,7 +38,7 @@ h1 {
 
 
 #bg-img {
-    background-image: url(../images/real_cf.png)
+    background-image: url(../images/real_cf.png);
 }
 
 .wrapper {
@@ -56,6 +56,40 @@ h1 {
    
 }
   
-.work {
-    max-width: 100px;
+.work0,
+.work1,
+.work2,
+.work3,
+.work4,
+.work5 {
+    height: 200px;
+    width: 267px;
+    background: #4aaaa5;
+    background-size: contain;
+
+    
+}
+
+.work1 {
+    background-image: url(../images/technics-q-c-640-480-1.jpg);
+}
+
+.work2 {
+    background-image: url(../images/technics-q-c-640-480-2.jpg);
+}
+
+.work3 {
+    background-image: url(../images/technics-q-c-640-480-5.jpg);
+}
+
+.work4 {
+    background-image: url(../images/technics-q-c-640-480-7.jpg);
+}
+
+.work5 {
+    background-image: url(../images/technics-q-c-640-480-9.jpg);
+}
+
+.form-row {
+    padding: 20px;
 }
